@@ -1,6 +1,9 @@
-The purpose of this git repository is to provide linux kernel image & header and firmware files as debian package binaries which include the most recent amdgpu developments. Among these, is the display abstraction layer (DAL) which is required for HDMI audio/sound. So if you have a new AMD graphics card and your HDMI sound is not working you can try to install and boot this kernel and see if it helps. This kernel can also help to run the most recent AMD GPUs with the open source amdgpu driver.
+The purpose of this git repository is to provide linux kernel image & header and firmware files as debian package binaries which include the most recent amdgpu developments. 
+
+Among these, is the display abstraction layer (DAL) which is required for HDMI audio/sound. So if you have a new AMD graphics card and your HDMI sound is not working you can try to install and boot this kernel and see if it helps. This kernel can also help to run the most recent AMD GPUs with the open source amdgpu driver.
 
 It should definitely work for Ubuntu 16.04, 16.10, 17.04. It is likely to work on more Ubuntu (+derivatives) versions as long as you have a 64 bit CPU.
+
 The corresponding source tree can be found here: https://github.com/M-Bab/linux-kernel-amdgpu
 
 ## Usage
